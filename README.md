@@ -15,7 +15,10 @@ npx hardhat help
 ```
 ```
 Pour tester en locale:
-    1.npx hardhat run scripts/deploy.js --network localhost On déploie le contrat
-    2.npx hardhat node On démarre la blockchain
-    3.npm start On démarre le front # WalletEthereum
+    1.Installer package.json: npm install package.json
+    2.npx hardhat node On démarre la blockchain 
+    3.npx hardhat run scripts/deploy.js --network localhost On déploie le contrat
+    4.npm start On démarre le front # WalletEthereum
+    Si dans la cnosole JS vous avez une erreur "MetaMask - RPC Error Nonce too high", 
+    dans metamask aller dans les paramétres puis paramétres avancées et reinitialiser le compte.
 ```
