@@ -117,8 +117,6 @@ function App() {
         <div className='logo'>
           <i className="fa-brands fa-ethereum"></i>
         </div>
-        {error && <p className='error'>{error}</p>}
-        {success && <p className='success'>{success}</p>}
         <h2>{balance /10**18} <span className='eth'>eth</span></h2>
         <div className='wallet_flex'>
         <div className='walletG'>
@@ -132,6 +130,8 @@ function App() {
             <button onClick={withdraw}>Retirer</button>
           </div>
         </div>
+        {error && <p className='error'>{error}</p>}
+        {success && <p className='success'>{success}</p>}
       </div>
     </div>
   );
