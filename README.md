@@ -21,4 +21,6 @@ Pour tester en locale:
     4.npm start On démarre le front # WalletEthereum
     Si dans la cnosole JS vous avez une erreur "MetaMask - RPC Error Nonce too high", 
     dans metamask aller dans les paramétres puis paramétres avancées et reinitialiser le compte.
+
+    Attention dans VS Code utilisez l'extension solidity version 0.0.135
 ```
