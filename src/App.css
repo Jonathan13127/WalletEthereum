@@ -12,8 +12,8 @@ html{
 
 body{
   font-family: 'Roboto', sans-serif;
-  background-image: linear-gradient(to bottom, rgba(26, 195, 218, 0.5), rgba(13, 48, 10, 0.5));
-  color: #D1D5DE;
+  background-image: linear-gradient(to bottom, rgba(28, 97, 22, 0.5), rgba(108, 126, 52, 0.5));
+  color: black;
 }
 
 .App {
@@ -52,7 +52,7 @@ h2{
   font-size: 3rem;
 }
 
-h2 .eth {
+h2 .eth, header{
   font-weight: 300;
   text-transform: uppercase;
   font-size: 2rem ;
@@ -102,10 +102,39 @@ button {
 
 .error{
   background: #b92b2b;
-  color: #D1D5DE;
+  color: black;
 }
 
 .success{
   background: #457f3d;
-  color: #D1D5DE;
+  color: black;
+}
+
+#footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+
+#footer_img{
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+header{
+  margin: 20px;
+  position: absolute;
+  top: 0;
+}
+
+#dateheure{
+  padding: 10px;
+  box-shadow: 0px 5px 5px rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgba(28, 97, 22, 0.5);
 }
